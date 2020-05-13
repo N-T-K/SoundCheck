@@ -1,0 +1,60 @@
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-righ: 0px;
+    font: 20px Helvetica, sans-serif;
+    color: #333;
+}
+
+.container {
+    max-width: 100vw;
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section {
+    align-content: center;
+    text-align: center;
+    width: 90vw;
+    margin: 0 auto;
+    /*padding-bottom: 1vh;*/
+}
+
+ul {
+}
+
+#mic1{
+    text-align: center;
+    align-self: center;
+    width: 90%;
+
+}
+
+.alert {
+    text-align: center;
+    position: absolute;
+    min-width: 100vw;
+    background-color: lime;
+    font: 4vw Helvetica, sans-serif;
+    color: #333;
+    /*-moz-animation: cssAnimation 2s ease-in 5s forwards;*/
+    /*!* Firefox *!*/
+    /*-webkit-animation: cssAnimation 2s ease-in 5s forwards;*/
+    /*!* Safari and Chrome *!*/
+    /*-o-animation: cssAnimation 2s ease-in 5s forwards;*/
+    /*!* Opera *!*/
+    /*animation: cssAnimation 2s ease-in 5s forwards;*/
+    /*-webkit-animation-fill-mode: forwards;*/
+    /*animation-fill-mode: forwards;*/
+}
+
+h1 {
+    text-align: center;
+    font-size: 7vw;
+}
+
+h3 {
+    font-size: 5vw;
+}
+

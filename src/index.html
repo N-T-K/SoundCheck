@@ -1,0 +1,28 @@
+<html> 
+<head>
+    <title>Sound Level</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+      <h1> Jungle Sound Level</h1>
+      <div class="section" id="meterContainer">
+          <meter id="mic1" value="50" min="0" low="50" high="80" optimum="40" max="100">sound level</meter>
+      </div>
+      <div class="section">
+          <h3>Peak Level History</h3>
+          <div class="section" style="max-width: 60vw; font-size: 4vw">
+              <ul id="levelLog" style="text-align: left; margin: 0 auto;">
+              </ul>
+          </div>
+      </div>
+  </div>
+ </body>
+
+<!--- import socket package for client --->
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js">
+</script>
+<!-- get script -->
+<script src="script.js"></script>
+</html>
